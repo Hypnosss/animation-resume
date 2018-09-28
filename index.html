@@ -7,6 +7,20 @@
     <title>animation-resume</title>
     <link rel="stylesheet" href="./style.css">
     <style id="styleTags"></style>
+    <style>
+        @media print{
+            #wrapper{
+                height: 1500px;
+            }
+            #codeWrapper{
+                display: none;
+            }
+            #markDownWrapper{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     
@@ -15,7 +29,7 @@
             <pre id="code"></pre>
         </div>
         <div id="markDownWrapper">
-            <pre id="markDown"></pre>
+            <div id="markDown"></div>
         </div>
     </div>
     
